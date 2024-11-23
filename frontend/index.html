@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animal Classification</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Animal Classifier</h1>
+  </header>
+  
+  <main>
+    <section id="upload-section">
+      <h2>Upload an Image</h2>
+      <input type="file" id="imageInput" accept="image/*">
+      <button id="predictBtn">Predict</button>
+    </section>
+
+    <section id="result-section" style="display: none;">
+      <h2>Prediction Result</h2>
+      <p id="resultText">The predicted animal will appear here.</p>
+      <p id="confidenceText"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Animal Classifier</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
